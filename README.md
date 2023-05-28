@@ -30,7 +30,12 @@ sudo dnf copr enable @jbangdev/jbang
 ```
 
 ```bash
-sudo dnf install jbang
+sudo dnf install -y jbang
+```
+
+
+```bash
+sudo dnf update
 ```
 
 For Linux, macOS, and Windows (using WSL or bash compatible shell like Cygwin or MinGW)
