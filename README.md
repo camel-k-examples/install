@@ -35,7 +35,7 @@ sudo dnf install -y jbang
 
 
 ```bash
-sudo dnf update
+sudo dnf update -y
 ```
 
 For Linux, macOS, and Windows (using WSL or bash compatible shell like Cygwin or MinGW)
