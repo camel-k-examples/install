@@ -2,6 +2,8 @@
 install.camel-k.com - install on fedora 
 
 
++ [camelexamples](https://github.com/camelexamples)
+
 
 ### Prepare the Environment:
 
@@ -45,3 +47,8 @@ curl -Ls https://sh.jbang.dev | bash -s - trust add https://github.com/apache/
 curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force camel@apache/camel
 ```
 
+
+
+---
+
++ [edit](https://github.com/camel-k-examples/install/edit/main/README.md)
