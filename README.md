@@ -48,6 +48,33 @@ curl -Ls https://sh.jbang.dev | bash -s - app install --fresh --force camel@apac
 ```
 
 
+## Create your first Camel integration
+
+```bash
+camel init hello.java
+```
+
+## Run the Camel integration
+
+``` bash
+camel run hello.java
+```
+
+Bang the Camel integration is now running. You can use ctrl + c to stop the integration.
+
+Camel makes it easy to change your code on the fly. You can run in live coding mode, as shown:
+
+```bash
+camel run hello.java --dev
+```
+
+While in live coding mode, whenever you save changes to hello.java, Camel will automatically load the updated version.
+
+
+
+
+
+
 
 ---
 
