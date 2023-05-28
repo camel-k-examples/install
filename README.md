@@ -71,6 +71,22 @@ camel run hello.java --dev
 While in live coding mode, whenever you save changes to hello.java, Camel will automatically load the updated version.
 
 
+create project
+```
+mkdir example
+cd example
+jbang init hello.java
+```
+
+create
+```
+jbang hello.java
+```
+
+update
+```bash
+jbang edit --open=[editor] hello.java
+```
 
 
 
