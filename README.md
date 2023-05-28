@@ -26,8 +26,11 @@ curl -Ls https://sh.jbang.dev | bash -s - app setup
 
 
 ```bash
-dnf copr enable @jbangdev/jbang 
-dnf install jbang
+sudo dnf copr enable @jbangdev/jbang 
+```
+
+```bash
+sudo dnf install jbang
 ```
 
 For Linux, macOS, and Windows (using WSL or bash compatible shell like Cygwin or MinGW)
