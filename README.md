@@ -20,6 +20,9 @@ install.camel-k.com - install on fedora
 
 
 
+
+## [Camel + JBang: bringing the world of Java scripting to Camel - Apache Camel](https://camel.apache.org/blog/2021/07/camel-jbang/)
+
 install jbang
 
 ```bash
@@ -88,6 +91,30 @@ update
 jbang edit --open=[editor] hello.java
 ```
 
+verify JBang
+```
+jbang version
+```
+
+to use Camel JBang then install the following:
+```
+jbang app install camel@apache/camel
+```
+
+
+
+## Enable shell completion
+
+Camel JBang provides shell completion for bash and zsh out of the box. To enable shell completion for Camel JBang, run:
+
+```
+source <(camel completion)
+```
+
+To make it permanent, run:
+```
+echo 'source <(camel completion)' >> ~/.bashrc
+```
 
 
 
