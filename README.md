@@ -120,6 +120,8 @@ echo 'source <(camel completion)' >> ~/.bashrc
 
 ## instal k3c and Camel
 
++ [K3s](https://k3s.io/)
+
 ```bash
 curl -sfL https://get.k3s.io | sh - 
 ```
